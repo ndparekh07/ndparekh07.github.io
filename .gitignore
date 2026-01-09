@@ -1,0 +1,63 @@
+# Python
+# Generic Python.gitignore file
+#
+# Byte-compiled / optimized / compressed files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.bin
+
+# Distributions / packaging
+.Python
+env/
+venv/
+lib/
+lib64/
+# Windows specific
+Scripts/
+# macOS specific
+bin/
+# virtualenv
+.venv/
+include/
+pip-wheel-metadata/
+share/
+wheels/
+
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+htmlcov/
+.nox/
+.tox/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-line.txt
+
+# Package/user specific files
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST.in
+
+# Editors/IDEs
+.project
+.vscode/        # VS Code
+.idea/          # JetBrains (e.g., PyCharm)
+.idea
+*.swp           # vim
+*~              # vim/emacs
+.DS_Store       # macOS finder
+.buildlog
+build/
+dist/
+site/
+
+# MacOS
+**/.DS_Store
